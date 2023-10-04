@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+#navbar{
+
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin:0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+   
+    border-bottom: 4px solid black;
+
+    
+}
+
+#navbar li a{
+    text-decoration:none ;
+    margin: 13px ;
+
+}
+#navbar li a img{
+    width: 90px;
+    margin-right:150px ;
+
+}
+#download{
+    background-color: blue;
+    margin-left: 150px;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+    
+}
+#download a {
+    color:white
+}
