@@ -9,11 +9,9 @@ body{
     justify-content: center;
     background-color: aqua;
     margin:0px;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
    
-    border-bottom: 4px solid black;
-
     
 }
 
@@ -37,4 +35,41 @@ body{
 }
 #download a {
     color:white
+}
+
+/*=========hero section=======*/
+.hero{
+    display:flex;
+    justify-content: center;
+}
+.hero div img{
+    width: 450px;
+}
+.hero1{
+    font-size: 40px;
+}
+.hero2{
+    font-size: 60px;
+}
+.hero3{
+    font-size: 20px;
+}
+.hero4 span{
+    background-color: blue;
+    padding: 10px 20px 10px 20px;
+    border:red ;
+    color:white;
+    border-radius: 10px;
+    
+}
+.herodiv1{
+    margin: 100px;
+    margin-right: 200px;
+}
+.hero{
+    padding-top: 60px;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg')
+
+   
+
 }
